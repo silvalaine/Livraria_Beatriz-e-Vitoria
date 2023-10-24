@@ -1,0 +1,136 @@
+@charset "utf-8";
+@font-face {
+    font-family: 'mercy';
+    src: url(../fontes/mercy.ttf) format('opentype');
+}
+
+:root{
+    --cor1: #A6CE86;
+    --cor2: #7EC445;
+    --cor3: #6BA53A;
+    --cor4: #5D9133;
+    --cor5: #4C6B2C;
+    --cor6: #F2C791;
+
+    --fonte-destaque: 'love_story_2';
+    --fonte-titulo: 'mercy';
+}
+
+body {
+    background-color: var(--cor3);
+}
+
+header#cabecalho{
+    background-color: var(--cor2);
+    min-height: 150px;
+    text-align: center;
+    padding: 30px;
+    margin-top: -10px;
+    margin-right: -10px;
+    margin-left: -10px;
+}
+
+header#cabecalho h1{
+    font-family: var(--fonte-titulo);
+}
+
+header img#icone {
+    position: absolute;
+    left: 1200px;
+    top: 30px;
+}
+
+header img#casa {
+    position: absolute;
+    right: 1350px;
+    top: 30px;
+}
+
+nav#menu {
+    display: block;
+}
+
+nav#menu ul{
+    text-transform: uppercase;
+    list-style: none;
+    color: black;
+    position: absolute;
+    top: 145px;
+    left: -20px;
+}
+
+nav#menu li{
+    display: inline-block;
+    background-color: var(--cor3);
+    padding: 10px;
+    margin: 2px;
+    transition: 1s;
+    color: black;
+}
+nav#menu li:hover {
+    background-color: var(--cor1);
+}
+
+nav#menu h1 {
+    display: none;
+}
+
+nav#menu a {
+    color: black;
+    text-decoration: none;
+}
+
+nav#menu a:hover {
+    color: black;
+}
+
+main#principal {
+    background-color: white;
+    width: 1200px;
+    height: 1430px;
+    margin: 40px auto 40px auto;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+main#principal ul {
+    list-style: none;
+}
+
+main#principal li {
+    margin: 10px;
+    background-color: var(--cor6) ;
+    width: 80px;
+    height: 80px;
+    border-radius: 45%;
+}
+
+main#principal p {
+    text-align: center;
+    padding-top: 35%;
+}
+
+main#principal p#li {
+    text-align: center;
+    padding-top: 26%;
+}
+
+main#principal p a{
+    color: black;
+    list-style: none;
+}
+
+div {
+    background-color: rgb(white);
+    width: 240px;
+    height: 400px;
+    margin: auto;
+    padding: 20px;
+    display: inline-block;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}

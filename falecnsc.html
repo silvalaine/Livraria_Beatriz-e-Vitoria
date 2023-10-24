@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imagens/icons8-livro-16.png" type="image/x-icon">
+    <title>LeeBooks - FALE CONOSCO</title>
+    <link rel="stylesheet" href="css/fc.css">
+</head>
+<body>
+        <header id="cabecalho">
+            <a href="index.html"><img id="casa" src="imagens/casa.webp" alt="casa" width="50px"></a>
+            <img id="icone" src="imagens/leebook_preto.png" width="10%">
+            <h1>LeeBooks Livraria</h1>
+
+            <nav id="menu">
+                <ul>
+                    <li><a href="https://instagram.com/leebookslivros?igshid=MjEwN2IyYWYwYw" target="_blank" class="externo">Instagram</a>
+                    <li><a href="https://whatsapp.com/channel/0029Va7fKmhGE56ptK4xjh3c" target="_blank" class="externo">WhatsApp</a></li>
+                    <li><a href="quem somos.html">Quem somos?</a></li>
+                    <li><a href="falecnsc.html">Fale conosco</a><li></li>
+                      </ul>
+        </header>
+
+        <main id="principal">
+
+<form action="mailto:vicbia724@gmail.com" method="post" id="iContato">
+    <fieldset id="usuario">
+        <legend>Identificação do Usuário</legend>
+            <p>
+                <p>
+                <label for="Nome">Nome</label>:<input type="text" name="tNome" id="Nome" size="30" maxlength="50" placeholder="Nome Completo"></input>
+               </p>
+
+               <p>
+                <label for="Senha">Senha</label>:<input type="password" name="tSenha" id="Senha" size="15" maxlength="10" placeholder="Senha 10 dígitos">
+            </p>
+               
+            <p>
+                <label for="Email">E-mail</label>:<input type="email" name="tEmail" id="Email" size="30" maxlength="30" placeholder="Digite seu e-mail">
+            </p>
+                <p>
+                <fieldset id="sexo">
+                    <legend>Sexo:</legend>
+                      <input type="radio" name="tSexo" id="Masc" ><label for="Masc"> Masculino</label> <br>
+                      <input type="radio" name="tSexo" id="Fem" checked ><label for="Fem"> Feminino</label> <br/>
+                      <input type="radio" name="tSexo" id="Fem" checked ><label for="pni"> Prefiro não informar</label>
+                </fieldset>
+                </p>
+                <p>
+                <label for="Nascimento">Data de Nascimento:<input type="date" name="tNascimento" id="Nascimento"></label>
+            </p>
+    </fieldset>
+    
+    <fieldset id="endereco">
+        <legend>Endereço do Usuário</legend>
+            <p>
+                <label for="Rua">Logradouro:</label><input type="text"  name="tRua" id="Rua" size="30" maxlength="50" placeholder="Rua, Travessa, Avenida...">
+            </p>
+            <p>
+                <label for="Num">Número:</label><input type="number"  name="tNum" id="Num" min="0" max="9999" size="30" maxlength="50" >
+            </p>
+            <p>
+                <label for="Est">Estado</label>:<select name="tEst" id="Est" >
+                    <optgroup label="Região Norte">
+                    <option value="AM">Amazonas</option>
+                    <option value="PA">Pará</option>
+                    <option value="AC">Acre</option>
+                    <option value="RR">Roraima</option>
+                    <option value="RO">Rondônia</option>
+                    <option value="AP">Amapá</option>
+                    <option value="TO">Tocantins</option>
+                    
+
+                    <optgroup label="Nordeste">
+                        <option value="MA">Maranhão</option>
+                        <option value="PI">Piaui</option>
+                        <option value="CE">Ceará</option>
+                        <option value="RN">Rio Grande Do Norte</option>
+                        <option value="PB">Paraíba</option>
+                        <option value="PE">Pernambuco</option>
+                        <option value="AL">Alagoas</option>
+                        <option value="SE">Sergipe</option>
+                        <option value="BA">Bahia</option>
+
+                        <optgroup label="Região Centro-Oeste">
+                            <option value="GO">Goiás</option>
+                            <option value="MT">Mato Grosso</option>
+                            <option value="MS">Mato Grosso Do Sul</option>
+                            <option value="DF">Distrito Federal</option>
+
+                            <optgroup label="Região Sudeste">
+                                <option value="SP">São Paulo</option>
+                                <option value="RJ"selected>Rio de Janeiro</option>
+                                <option value="MG">Mato Gerais</option>
+                                <option value="ES">Espírito Santo</option>
+
+                                <optgroup label="Região Sul">
+                                    <option value="PR">Paraná</option>
+                                    <option value="SC">Santa Catarina</option>
+                                    <option value="RS">Rio Gande Do Sul</option>
+                                 
+                </optgroup>
+                </select>
+
+            </p>
+            <p>
+                <label for="Cid">Cidade:<input type="text"  name="tCid" id="Cid" size="30" maxlength="50" placeholder="Digite sua Cidade"></label>
+            </p>
+    </fieldset>
+
+    <fieldset id="pedido">
+        <legend>Quero um Livro</legend>
+        <label for="Liv">Livro:</label><select name="tLiv" id="Liv">
+            <optgroup label="Romance">
+                <option>A hipotese do amor</option>
+                <option>A troca</option>
+                <option>Teto para dois</option>
+                <option>A razão do amor</option>
+                
+            </optgroup>
+            <optgroup label="Terror">
+                <option>It a coisa</option>
+                <option>Carrie</option>
+                <option>Coraline</option>
+                <option>A passiente silenciosa</option>
+            </optgroup>
+            <optgroup label="Infantil">
+                <option>O pequeno princípe</option>
+                <option>O menino do pijama listrado</option>
+                <option>A operação de Lili</option>
+                <option>O menino da calça curta</option>
+            </optgroup>
+
+            <optgroup label="Biografia">
+                <option>Uma autobiografia</option>
+                <option>Elon Musk</option>
+                <option>Na Minha Pele</option>
+                <option>Eu sou Malala</option>
+            </optgroup>
+
+            <optgroup label="Ficção Cientifica">
+                <option>Duna</option>
+                <option>Estilhaça-Me</option>
+                <option>A Biblioteca meia-noite</option>
+                <option>Frankenstein</option>
+            </optgroup>
+
+            <optgroup label="Fantasia">
+                <option>Harry Potter</option>
+                <option>Game of Trones</option>
+                <option>Jogos vorazes</option>
+                <option>shadow hunter</option>
+            </optgroup>
+
+            <optgroup label="Poesia">
+                <option>Textos para tocar cicatrizes</option>
+                <option>Sobre o amor </option>
+                <option>Um cartão para voçê</option>
+                <option>Quebre os seus sapatinhos de cristal</option>
+            </optgroup>
+
+            <optgroup label="autoajuda">
+                <option>A sutil arte de largar o f*da-se</option>
+                <option>O egó é seu inimigo</option>
+                <option>Nunca foi sorte</option>
+                <option>O poder da ação para as crianças</option>
+            </optgroup>
+            <optgroup label="Quadrinhos e manga">
+                <option>Spy x Family</option>
+                <option>My hero academia</option>
+                <option>Turma da mônica</option>
+                <option>One piece</option>
+            </optgroup>
+        </select>
+
+    
+    <fieldset id="mensagem">
+        <legend>Mensagem do Usuário</legend>
+            
+            <p>
+                <label for="Msg">Mensagem</label>:<textarea name="tMsg" id="Msg" cols="45" rows="5" placeholder="Digite sua Mensagem"></textarea>
+            </p>
+    </fieldset>
+
+    <p>
+        <input type="submit" value="Enviar">
+        <input type="reset" valeu="Limpar"> <br>    
+    </p>
+</form>
+
+</main>
+
+</body>
+<footer> Site criado por Beatriz Accarino e Vitória Dias para o Colegio Geração 2000.</footer>
+    

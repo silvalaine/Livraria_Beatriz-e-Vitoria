@@ -1,0 +1,298 @@
+@charset "utf-8";
+@font-face {
+    font-family: 'mercy';
+    src: url(../fontes/mercy.ttf) format('opentype');
+}
+
+:root{
+    --cor1: #A6CE86;
+    --cor2: #7EC445;
+    --cor3: #6BA53A;
+    --cor4: #5D9133;
+    --cor5: #4C6B2C;
+    --cor6: #F2C791;
+
+    --fonte-destaque: 'love_story_2';
+    --fonte-titulo: 'mercy';
+}
+
+body {
+    background-color: var(--cor3);
+}
+
+header#cabecalho{
+    background-color: var(--cor2);
+    min-height: 150px;
+    text-align: center;
+    padding: 30px;
+    margin-top: -10px;
+    margin-right: -10px;
+    margin-left: -10px;
+}
+
+header#cabecalho h1{
+    font-family: var(--fonte-titulo);
+}
+
+header img#icone {
+    position: absolute;
+    left: 1200px;
+    top: 30px;
+}
+
+header img#casa {
+    position: absolute;
+    right: 1350px;
+    top: 30px;
+}
+
+nav#menu {
+    display: block;
+}
+
+nav#menu ul{
+    text-transform: uppercase;
+    list-style: none;
+    color: black;
+    position: absolute;
+    top: 145px;
+    left: -20px;
+}
+
+nav#menu li{
+    display: inline-block;
+    background-color: var(--cor3);
+    padding: 10px;
+    margin: 2px;
+    transition: 1s;
+    color: black;
+}
+nav#menu li:hover {
+    background-color: var(--cor1);
+}
+
+nav#menu h1 {
+    display: none;
+}
+
+nav#menu a {
+    color: black;
+    text-decoration: none;
+}
+
+nav#menu a:hover {
+    color: black;
+}
+
+main#principal {
+    background-color: white;
+    width: 1200px;
+    height: 1200px;
+    margin: 40px auto 40px auto;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+h1.categoria {
+    
+    color: #000000;
+    text-align: center;
+    font-family: sans-serif;
+
+}
+
+h2{
+
+    font-family: sans-serif;
+}
+h2.linkagem {
+  color: white;
+  border-radius: 10px;
+  border: 10px;
+
+}
+
+p {
+
+    color: black;
+    text-align:left;
+    padding: 10px;
+
+}
+p.header{
+    color: white;
+    text-align: right;
+}
+
+h1.frete0 {
+text-align: center;
+color:white;
+background-color: #000000;
+font-weight: normal;
+padding: 10px;
+}
+
+
+
+
+footer {
+
+    background-color: var(--cor2);
+    color:white;
+    text-align: center;
+    font-size: 0,8em;
+    padding: 5px;
+
+}
+
+aside {
+
+    display: flex;
+
+}
+aside.frete{
+
+display: flex;
+background-color: #000000;
+color: white;
+padding: 10px;
+text-align: center;
+
+
+
+}
+
+div {
+
+    background-color: rgb(white);
+   
+    width: 300px;
+    height: 300px;
+    margin: auto;
+    border-radius: 10px;
+    
+    padding: 20px;
+    display: inline-block;
+    text-align: center;
+    transition: 0.8s;
+    
+
+}
+
+div:hover {
+  background-color: var(--cor3);
+
+
+}
+
+
+div.categoria {
+
+    background-color: rgb(white);
+    width: 300px;
+    height: 200px;
+    margin: 20px auto;
+    padding: 20px;
+    display: inline-block;
+    text-align: center;
+
+}
+
+
+img#logo-branca0 {
+
+    display:flex;
+    
+}
+
+a.logo-branca1 {
+
+    text-align:center;
+    
+}
+
+
+a#camisas {
+
+    
+    border-radius: 10px;
+    padding: 10px;
+    text-decoration: none;
+}
+a#camisas:hover {
+
+    background-color: #878A8C;
+    border-radius: 10px;
+    padding: 10px;
+    text-decoration: none;
+    transition: 0.8s;
+}
+
+a#acessorios {
+
+    border-radius: 10px;
+    padding: 10px;
+    text-decoration: none;
+}
+
+a#acessorios:hover{
+
+    background-color: #878A8C;
+    border-radius: 10px;
+    padding: 10px;
+    text-decoration: none;
+}
+
+a#perfumes {
+
+    
+    border-radius: 10px;
+    padding: 10px;
+    text-decoration: none;
+}
+a#perfumes:hover {
+
+    background-color: #878A8C;
+    border-radius: 10px;
+    padding: 10px;
+    text-decoration: none;
+}
+a#instagram {
+
+   
+    border-radius: 10px;
+    padding: 10px;
+    text-decoration: none;
+}
+a#instagram:hover{
+
+    background-color: #878A8C;
+    border-radius: 10px;
+    padding: 10px;
+    text-decoration: none;
+}
+a#whatsapp {
+
+    
+    border-radius: 10px;
+    padding: 10px;
+    text-decoration: none; 
+}
+a#whatsapp:hover {
+
+    background-color: #878A8C;
+    border-radius: 10px;
+    padding: 10px;
+    text-decoration: none;
+}
+
+legend {
+
+  font-family: 'Gabarito', sans-serif;
+  padding: 10px;
+}
+fieldset#sexo {
+
+    padding: 5px;
+    margin: 5px;
+}
